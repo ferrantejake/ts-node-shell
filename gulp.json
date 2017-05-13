@@ -1,0 +1,19 @@
+{
+    "src": [
+        "index.js",
+        "app",
+        "!app/lib"
+    ],
+    "dest": "app/lib",
+    "clean": [
+        "app/lib"
+    ],
+    "tsfiles": [
+        "app/src/**/*.ts"
+    ],
+    "tsfilesmap": {
+        "app/src/**/*.ts": "app/lib"
+    },
+    "resources": "app/src/**/*.!(ts)",
+    "inlineSourcemaps": true
+}

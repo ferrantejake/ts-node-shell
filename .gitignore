@@ -1,0 +1,4 @@
+app/lib
+app/*.js
+node_modules
+index.js

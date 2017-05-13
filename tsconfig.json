@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "target": "ES6"
+    },
+    "filesGlob": [
+        "app/src/**/*.ts",
+        "app/*.ts",
+        "*.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": false
+    },
+    "compileOnSave": false, 
+    "exclude": [
+        "app/lib",
+        "node_modules"
+    ]
+}
